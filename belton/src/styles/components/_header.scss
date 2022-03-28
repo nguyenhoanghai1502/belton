@@ -1,0 +1,12 @@
+.header {
+    @include flex(center, space-between);
+    background: transparent;
+    color: $white-color;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    &__right {
+        @include flex(center, center);
+    }
+}
